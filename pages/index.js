@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import Navbar from './_DownloadNavbar'
 import Footer from './_Footer'
 import DownloadButton from './_DownloadButton'
+import { prefixLink } from 'gatsby-helpers'
 
 export default class Download extends React.Component {
   render () {
@@ -31,7 +32,7 @@ export default class Download extends React.Component {
           <div className="container-fluid">
             <div className="row">
               <div className="col-sm-8 col-sm-offset-2">
-                <img src="/assets/demo-line-plot.gif" width="100%"/>
+                <img src={prefixLink("/assets/demo-line-plot.gif")} width="100%"/>
               </div>
             </div>
           </div>
