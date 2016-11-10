@@ -10,7 +10,7 @@ export default class Download extends React.Component {
     return (
       <div>
         <Navbar />
-        <div className="main section1">
+        <div className="main section1 m-t m-b">
           <div className="container">
             <h1 className="block-title text-center m-b-lg">Rinocloud for desktop</h1>
 
