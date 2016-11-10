@@ -82,3 +82,80 @@ h1, h2, h3, h4, h5, h6{
 .main{
   margin-top: 70px;
 }
+
+.pg {
+  padding: 0px;
+  border: 3px solid #e7e8ea;
+  border-radius: 6px;
+  background-color: #e7e8ea;
+}
+
+.pg ul{
+  position: absolute;
+  left: 0;
+  padding: 3px;
+  background-color: #e7e8ea;
+  top: 0px;
+  width: 100%;
+  right: 0px;
+  height: 20px;
+}
+
+.db-btns {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: -23px;
+}
+
+.db-btns:before {
+  content: "";
+  position: relative;
+  left: 35px;
+  top: 5px;
+  height: 10px;
+  width: 185px;
+  background: #fff;
+  border-radius: 3px;
+}
+
+.db-btns > li {
+  display: inline-block;
+  list-style: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 5px;
+  background: #fc5254;
+  margin-left: 5px;
+}
+
+.db-btns li:nth-child(2) {
+   background: #fcae52;
+}
+
+.db-btns li:nth-child(3) {
+   background: #66b34e;
+}
+
+img{
+  margin-top: 7px;
+  margin-bottom: 2px;
+  border-radius: 3px;
+}
+
+.blue{
+  background-color: #4679BD;
+}
+
+.gradient {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 100vw 0 0;
+  border-color: transparent #4679BD transparent transparent;
+  transform: scale(1.0001);
+}
+
+.navbar-bottom{
+  margin-top: 0px;
+}

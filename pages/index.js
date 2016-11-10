@@ -10,7 +10,7 @@ export default class Download extends React.Component {
     return (
       <div>
         <Navbar />
-        <div className="main">
+        <div className="main section1">
           <div className="container">
             <h1 className="block-title text-center m-b-lg">Rinocloud for desktop</h1>
 
@@ -24,15 +24,20 @@ export default class Download extends React.Component {
             <div className="text-center row">
               <DownloadButton />
             </div>
-
           </div>
         </div>
 
-        <div className="block text-center">
+        <div className="gradient"></div>
+
+        <div className="block blue">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-sm-8 col-sm-offset-2">
-                <img src={prefixLink("/assets/demo-line-plot.gif")} width="100%"/>
+              <div className="pg col-lg-8 col-lg-offset-2">
+                <ul className="db-btns">
+                  <li></li><li></li><li></li>
+                </ul>
+                <div className="overlap" />
+                <img src={prefixLink("/assets/rinobot-demo-line-plot.gif")} width="100%"/>
               </div>
             </div>
           </div>
