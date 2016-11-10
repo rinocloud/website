@@ -1,0 +1,84 @@
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    font-weight: 400;
+    font-family: 'Karla', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Karla', sans-serif;
+}
+
+.navbar-top {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    cursor: text;
+    background: transparent;
+    padding: 10px 25px;
+    -webkit-app-region: drag;
+    /*
+      border-bottom: 1px solid #e1e1ec;
+      border-radius: 0px;
+      box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+    */
+    border: none;
+}
+
+.block-title{
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 66px;
+  color: #00386C;
+}
+
+.block-subtitle{
+  font-size: 27px;
+  line-height: 40px;
+}
+
+.navbar-top .btn{
+  padding: 0px;
+}
+
+.navbar-top .btn-get-started{
+  margin-top: 8px;
+  padding: 5px;
+}
+
+.navbar-bottom {
+  padding: 25px 35px;
+  background: #2a2730;
+  color: #fafafa;
+  border: none;
+  border-radius: 0px;
+  cursor: text;
+  z-index: 5;
+  -webkit-app-region: drag;
+  margin-bottom: -1px;
+  margin-top: 100px;
+}
+
+.navbar-bottom .navbar-nav > li > a {
+    color: #fafafa;
+}
+
+.navbar-bottom .navbar-nav > li > a:hover {
+    color: #fafafa;
+    text-decoration: underline;
+}
+
+
+.main{
+  margin-top: 70px;
+}
