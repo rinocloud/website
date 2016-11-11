@@ -15,10 +15,25 @@ export default class Download extends React.Component {
             <h1 className="block-title text-center m-b-lg">Rinocloud for desktop</h1>
 
             <div className="col-sm-6 col-centered m-b-lg">
-              <h4><i className="icon icon-dot-single"/>Apply algorithms to all your data at once</h4>
-              <h4><i className="icon icon-dot-single"/>Run our wide range of <a href="http://plugins.rinocloud.com/">Plugins</a> on your data</h4>
-              <h4><i className="icon icon-dot-single"/>Supports running Python/MATLAB and R</h4>
-              <h4><i className="icon icon-dot-single"/>Ensure consistent data processing across your team</h4>
+              <h4><i className="icon icon-dot-single"/>
+                <a href="https://docs.rinocloud.com/rinocloud-desktop/getting_started.html">
+                  Apply algorithms to all your data at once
+                </a>
+              </h4>
+              <h4><i className="icon icon-dot-single"/>Run our wide range of{'  '}
+                <a href="http://plugins.rinocloud.com/">Plugins</a> on your data
+              </h4>
+              <h4><i className="icon icon-dot-single"/>
+                Supports running{'  '}
+                <a href="https://docs.rinocloud.com/rinocloud-desktop/running_python.html">Python</a>
+                /<a href="https://docs.rinocloud.com/rinocloud-desktop/running_matlab.html">MATLAB</a>{'  '}
+                and <a href="https://docs.rinocloud.com/rinocloud-desktop/running_r.html">R</a>
+              </h4>
+              <h4><i className="icon icon-dot-single"/>
+                <a href="https://docs.rinocloud.com/rinocloud-desktop/processing_data.html">
+                  Ensure consistent data processing across your team
+                </a>
+              </h4>
             </div>
 
             <div className="text-center row">
