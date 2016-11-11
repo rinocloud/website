@@ -30,6 +30,11 @@ export default class Download extends React.Component {
                 and <a href="https://docs.rinocloud.com/rinocloud-desktop/running_r.html">R</a>
               </h4>
               <h4><i className="icon icon-dot-single"/>
+                <a href="https://docs.rinocloud.com/rinocloud-desktop/code_snippets.html">
+                  Quickly run code snippets on files
+                </a>
+              </h4>
+              <h4><i className="icon icon-dot-single"/>
                 <a href="https://docs.rinocloud.com/rinocloud-desktop/processing_data.html">
                   Ensure consistent data processing across your team
                 </a>
